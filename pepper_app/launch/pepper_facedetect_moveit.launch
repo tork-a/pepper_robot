@@ -1,0 +1,12 @@
+<launch>
+  <arg name="config_filename" default="$(find pepper_app)/launch/pepper_facedetect_moveit.rviz"/>
+
+  <!-- face detect setup -->
+  <include file="$(find pepper_app)/launch/pepper_facedetect.launch">
+    <arg name="use_gui" value="false" />
+  </include>
+
+  <include file="$(find pepper_moveit_config)/launch/demo.launch">
+    <arg name="config_filename" value="$(arg config_filename)" />
+  </include>
+</launch>

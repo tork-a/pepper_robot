@@ -32,8 +32,21 @@ Run
 
 The following has been only verified on virtual environment (where `Choregraphe` is not present).
 
+Run with MoveIt!
+++++++++++++++++++++
+
+::
+
+  roslaunch pepper_app pepper_facedetect_moveit.launch 
+  
+.. image:: ./doc/pepper_moveit_botharms_facedetect.png
+
+Run without MoveIt!
+++++++++++++++++++++
+
+If you have not installed naoqi python SDK, MoveIt! may not run. In this case, run the following. 
+Note that the robot model may not appear on RViz unless you start ROS naoqi bridge successfully:
+
 ::
 
   roslaunch pepper_app pepper_facedetect.launch
-  
-.. image:: ./doc/pepper_moveit_botharms_facedetect.png
