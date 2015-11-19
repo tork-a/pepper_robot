@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>pepper_app</name>
+  <version>0.0.0</version>
+  <description>ROS sample / application using Softbank's Pepper</description>
+
+  <maintainer email="dev@opensource-robotics.tokyo.jp">TORK</maintainer>
+  <license>Apache 2.0</license>
+  <url type="website">http://wiki.ros.org/pepper_app</url>
+  <author email="iiysaito@opensource-robotics.tokyo.jp">Isaac I. Y. Saito</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>face_detector</run_depend>
+  <run_depend>jsk_rviz_plugins</run_depend>
+  <run_depend>pepper_meshes</run_depend>
+  <run_depend>pepper_moveit_config</run_depend>
+
+  <export />
+</package>

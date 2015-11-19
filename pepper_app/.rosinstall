@@ -1,0 +1,12 @@
+- git:  # Needed for speech feature
+    local-name: ros-naoqi/naoqi_driver
+    uri: https://github.com/ros-naoqi/naoqi_driver.git
+    version: master
+- git:  # Needed until https://github.com/ros-naoqi/pepper_moveit_config/pull/2 gets merged and released
+    local-name: ros-naoqi/pepper_moveit_config
+    uri: https://github.com/ros-naoqi/pepper_moveit_config.git
+    version: selectable_moveitconfig
+- git:  # Needed until 1.0.11 or newer gets released
+    local-name: wg-perception/people
+    uri: https://github.com/wg-perception/people.git
+    version: indigo-devel
