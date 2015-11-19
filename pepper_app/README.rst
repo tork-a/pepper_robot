@@ -20,6 +20,7 @@ Following is a tentative source installation (for Nov 2015 project at TORK). ::
 
   mkdir -p ~/cws_naoqi/src && cd ~/cws_naoqi/src
   git clone https://github.com/tork-a/pepper_robot.git && cd pepper_robot && git checkout add/app_pkg
+  cd ~/cws_naoqi/src
   wstool init && wstool merge pepper_robot/pepper_app/.rosinstall
   cd ~/cws_naoqi
   catkin init
